@@ -1,14 +1,8 @@
-import "./style/css/style.css"
+import "./style/style.scss"
 
 function App() {
   return (
     <div>
-      <div className={"test"}>
-        hi
-      </div>
-        <div className={"test1"}>
-        hi
-      </div>
     </div>
   );
 }
