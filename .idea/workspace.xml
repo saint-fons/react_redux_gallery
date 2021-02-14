@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da36479d-c499-405f-91a3-edeb6962f166" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Gallery.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/GalleryContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/API.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/GallerySelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/GallerySelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Scout-App" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,6 +48,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git\react_redux_gallery\react_redux_gallery1\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\git\react_redux_gallery\react_redux_gallery1\src\style" />
       <recent name="F:\git\react_redux_gallery\react_redux_gallery1\src\style\scss" />
@@ -55,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613322931228</updated>
-      <workItem from="1613322933402" duration="1685000" />
+      <workItem from="1613322933402" duration="3071000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1613324340268</created>
@@ -64,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613324340268</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="store, api added">
+      <created>1613324970243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613324970243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="store, api added" />
+    <option name="LAST_COMMIT_MESSAGE" value="store, api added" />
   </component>
 </project>

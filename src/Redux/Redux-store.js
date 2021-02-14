@@ -1,10 +1,10 @@
 import {createStore, combineReducers, applyMiddleware, compose} from "redux"
-import galleryReducer from "./GalleryReducer";
+import GalleryReducer from "./GalleryReducer";
 import thunkMiddleware from "redux-thunk"
 
 
 let reducers = combineReducers({
-    listCountries: galleryReducer
+    listImages: GalleryReducer
 })
 
 
