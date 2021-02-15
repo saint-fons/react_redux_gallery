@@ -124,16 +124,20 @@ const Gallery = (props) => {
 
                 <div className={"Gallery_Container_Element2"}>
                     {props.countries.map(i => (
-
                         <a key={i.id}
-                           href={i.url}
-                        >
+                           href={i.url}>
                             <img
                                 className={"Gallery_Images_Container"}
                                 src={i.url}
                                 alt={"img"}
                             />
+                            <div>
+                                <button>
+
+                                </button>
+                            </div>
                         </a>
+
                     ))}
                 </div>
 
