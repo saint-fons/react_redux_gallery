@@ -23,6 +23,11 @@ $HeightOfImages: 300px;
     width: $FullDisplay;
     height: $BottomDisplay;
 
+    .DarkModeStar {
+      width: 100px;
+      height: 100px;
+    }
+
     .Gallery_Images_Container {
       min-width: $WidthOfImages;
       max-height: $HeightOfImages;
