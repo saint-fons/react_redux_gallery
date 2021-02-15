@@ -1,8 +1,9 @@
 $FullDisplay: 100%;
 $BottomDisplay: 70%;
+$TopDisplay: 30%;
 $WidthOfImages: 300px;
 $HeightOfImages: 300px;
-
+$SmallIcon: 50px;
 
 
 * {
@@ -19,20 +20,30 @@ $HeightOfImages: 300px;
   height: $FullDisplay;
   position: absolute;
 
-  .Gallery_Container_Element1 {
+
+  .Gallery_Container_Form_element1 {
+    width: $FullDisplay;
+    height: $TopDisplay;
+
+      .DarkModeStar {
+        width: $SmallIcon;
+        height: $SmallIcon;
+      }
+
+  }
+
+  .Gallery_Container_Element2 {
     width: $FullDisplay;
     height: $BottomDisplay;
-
-    .DarkModeStar {
-      width: 100px;
-      height: 100px;
-    }
 
     .Gallery_Images_Container {
       min-width: $WidthOfImages;
       max-height: $HeightOfImages;
     }
+
   }
+
+
 }
 
 

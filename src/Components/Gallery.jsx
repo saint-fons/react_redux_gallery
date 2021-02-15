@@ -23,8 +23,9 @@ const Gallery = (props) => {
             <>
                 <GlobalStyles/>
 
-                <div className={"Gallery_Container_Element1"}>
+                <div className={"Gallery_Container_Form_element1"}>
                     <button
+                        className={"ButtonSwitcher"}
                         onClick={toggleTheme}>
                         {theme === 'light' ?
                             <img
@@ -38,6 +39,9 @@ const Gallery = (props) => {
                                 className={"DarkModeStar"}/>
                         }
                     </button>
+                </div>
+
+                <div className={"Gallery_Container_Element2"}>
                     {props.countries.map(i => (
                         <a href={i.url}>
                             <img
