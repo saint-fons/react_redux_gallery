@@ -1,11 +1,12 @@
 import React from "react";
-import {ThemeProvider} from 'styled-components';
 import {lightTheme, darkTheme} from './../style/theme';
 import {GlobalStyles} from './../style/global';
+import {Form, Field} from 'react-final-form'
+import {ThemeProvider} from 'styled-components';
 import {useState} from 'react';
 import star from "./../style/img/star-solid.svg"
 import FormStyles from './../style/FormStyles'
-import {Form, Field} from 'react-final-form'
+
 
 const Gallery = (props) => {
 
@@ -51,50 +52,55 @@ const Gallery = (props) => {
                 <GlobalStyles/>
 
                 <div className={"Gallery_Container_Form_element1"}>
-                    <button
-                        className={"ButtonSwitcher"}
-                        onClick={toggleTheme}>
-                        {theme === 'light' ?
-                            <img
-                                src={star}
-                                alt={"star"}
-                                className={"DarkModeStar"}/>
-                            :
-                            <img
-                                src={star}
-                                alt={"star"}
-                                className={"DarkModeStar"}/>
-                        }
-                    </button>
 
                     <FormStyles>
+                        <button
+                            className={"ButtonSwitcher"}
+                            onClick={toggleTheme}>
+                            {theme === 'light' ?
+                                <img
+                                    src={star}
+                                    alt={"star"}
+                                    className={"DarkModeStar"}/>
+                                :
+                                <img
+                                    src={star}
+                                    alt={"star"}
+                                    className={"DarkModeStar"}/>
+                            }
+                        </button>
                         <Form
                             onSubmit={onSubmit}
-                            render={({handleSubmit,
+                            render={({
+                                         handleSubmit,
                                          form,
                                          submitting,
-                                         pristine, values}) => (
+                                         pristine,
+                                         values
+                                     }) => (
                                 <form onSubmit={handleSubmit}>
                                     <Field
                                         name="Image url"
                                         validate={composeValidators(
                                             required,
                                             urlValue)}>
-                                        {({input,
-                                              meta}) =>
+                                        {({
+                                              input,
+                                              meta
+                                          }) =>
                                             (
-                                            <div>
-                                                <label>Image url</label>
-                                                <input {...input}
-                                                       type="text"
-                                                       placeholder="Image url"
-                                                />
-                                                {meta.error && meta.touched &&
-                                                <span>
+                                                <div>
+                                                    <label>Image url</label>
+                                                    <input {...input}
+                                                           type="text"
+                                                           placeholder="Image url"
+                                                    />
+                                                    {meta.error && meta.touched &&
+                                                    <span>
                                                     {meta.error}
                                                 </span>}
-                                            </div>
-                                        )}
+                                                </div>
+                                            )}
                                     </Field>
                                     <div className="buttons">
                                         <button type="submit"
@@ -118,12 +124,12 @@ const Gallery = (props) => {
 
                 <div className={"Gallery_Container_Element2"}>
                     {props.countries.map(i => (
+
                         <a key={i.id}
                            href={i.url}
                         >
                             <img
                                 className={"Gallery_Images_Container"}
-                                key={i.id}
                                 src={i.url}
                                 alt={"img"}
                             />

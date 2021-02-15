@@ -3,7 +3,8 @@ $BottomDisplay: 70%;
 $TopDisplay: 30%;
 $WidthOfImages: 300px;
 $HeightOfImages: 300px;
-$SmallIcon: 50px;
+$SmallIcon: 70px;
+$Center: 50%;
 
 
 * {
@@ -25,11 +26,21 @@ $SmallIcon: 50px;
     width: $FullDisplay;
     height: $TopDisplay;
 
+    .ButtonSwitcher{
+      width: $SmallIcon;
+      height: $SmallIcon;
+
+      position: relative;
+      top: 0;
+      left: $Center;
+
+      margin-top: $SmallIcon;
+
       .DarkModeStar {
         width: $SmallIcon;
         height: $SmallIcon;
       }
-
+    }
   }
 
   .Gallery_Container_Element2 {

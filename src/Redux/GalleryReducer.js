@@ -20,7 +20,8 @@ const galleryReducer = (state = initialState, action) => {
             }
         case ADD_IMAGE: {
             let newImage = {
-                image: state.updateImageUrl
+                url: state.updateImageUrl,
+                id: state.galleryImages.length + 1
             }
             stateCopy = {...state}
             stateCopy.galleryImages = [...state.galleryImages]
