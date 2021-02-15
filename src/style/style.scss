@@ -1,0 +1,35 @@
+$FullDisplay: 100%;
+$BottomDisplay: 70%;
+$WidthOfImages: 300px;
+$HeightOfImages: 300px;
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*GALLERY-CONTAINER*/
+
+
+.Gallery_Container {
+  width: $FullDisplay;
+  height: $FullDisplay;
+  position: absolute;
+
+  .Gallery_Container_Element1 {
+    width: $FullDisplay;
+    height: $BottomDisplay;
+
+    .Gallery_Images_Container {
+      min-width: $WidthOfImages;
+      max-height: $HeightOfImages;
+    }
+  }
+}
+
+
+
+/*GALLERY-CONTAINER*/

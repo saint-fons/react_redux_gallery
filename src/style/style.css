@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*GALLERY-CONTAINER*/
+.Gallery_Container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.Gallery_Container .Gallery_Container_Element1 {
+  width: 100%;
+  height: 70%;
+}
+.Gallery_Container .Gallery_Container_Element1 .Gallery_Images_Container {
+  min-width: 300px;
+  max-height: 300px;
+}
+
+/*GALLERY-CONTAINER*/

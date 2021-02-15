@@ -8,7 +8,7 @@ export const getGallerySelector = (state) => {
 
 export const getGallerySuperSelector = createSelector(getGallerySelector,
     (state) => {
-        return state.listImages.gallery
+        return state.listImages.galleryImages
     })
 
 
