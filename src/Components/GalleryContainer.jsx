@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from "react-redux";
 import {getGallerySuperSelector} from "../Redux/GallerySelector";
 import Gallery from "./Gallery";
-import {getGallery} from "../Redux/GalleryReducer";
+import {addImage, getGallery, updateImageUrl} from "../Redux/GalleryReducer";
 import "./../style/style.scss"
 
 
@@ -16,6 +16,8 @@ class CountryContainer extends React.Component {
             <div className={"Gallery_Container"}>
                 <Gallery
                     countries={this.props.gallery}
+                    addImage={this.props.addImage}
+                    updateImageUrl={this.props.updateImageUrl}
                 />
             </div>
         </>
@@ -31,4 +33,4 @@ let mapStateToProps = (state) => {
 
 
 export default connect((mapStateToProps),
-    {getGallery})(CountryContainer)
+    {getGallery, addImage, updateImageUrl})(CountryContainer)
