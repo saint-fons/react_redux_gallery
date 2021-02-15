@@ -3,7 +3,7 @@ import {GalleryAPI as CountriesAPI} from "../API/API";
 const SET_GALLERY = 'SET-GALLERY'
 
 let initialState = {
-    gallery: [{
+    galleryImages: [{
     }],
 }
 

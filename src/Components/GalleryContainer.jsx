@@ -1,13 +1,13 @@
 import React from 'react'
 import {connect} from "react-redux";
 import {getGallerySuperSelector} from "../Redux/GallerySelector";
-import {getGallery} from "../Redux/GalleryReducer";
 import Gallery from "./Gallery";
+import {getGallery} from "../Redux/GalleryReducer";
 
 
 class CountryContainer extends React.Component {
     componentDidMount() {
-        getGallery()
+        this.props.getGallery()
     }
 
     render() {
