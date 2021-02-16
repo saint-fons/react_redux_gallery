@@ -15,16 +15,16 @@
   height: 30%;
 }
 .Gallery_Container .Gallery_Container_Form_element1 .ButtonSwitcher {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   position: relative;
   top: 0;
   left: 50%;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .Gallery_Container .Gallery_Container_Form_element1 .ButtonSwitcher .DarkModeStar {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 .Gallery_Container .Gallery_Container_Element2 {
   width: 100%;

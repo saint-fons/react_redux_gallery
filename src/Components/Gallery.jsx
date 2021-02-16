@@ -131,11 +131,6 @@ const Gallery = (props) => {
                                 src={i.url}
                                 alt={"img"}
                             />
-                            <div>
-                                <button>
-
-                                </button>
-                            </div>
                         </a>
 
                     ))}

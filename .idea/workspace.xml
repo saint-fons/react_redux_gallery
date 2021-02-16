@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da36479d-c499-405f-91a3-edeb6962f166" name="Default Changelist" comment="new image added">
+    <list default="true" id="da36479d-c499-405f-91a3-edeb6962f166" name="Default Changelist" comment="delete dispatch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GalleryContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GalleryContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/GalleryReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/GalleryReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/style" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,7 +62,8 @@
       <updated>1613322931228</updated>
       <workItem from="1613322933402" duration="3729000" />
       <workItem from="1613366501988" duration="2000" />
-      <workItem from="1613367398163" duration="16910000" />
+      <workItem from="1613367398163" duration="16946000" />
+      <workItem from="1613456280970" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1613324340268</created>
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613381126717</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="delete dispatch">
+      <created>1613402764406</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613402764406</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +186,7 @@
     <MESSAGE value="form init" />
     <MESSAGE value="readme fixed" />
     <MESSAGE value="new image added" />
-    <option name="LAST_COMMIT_MESSAGE" value="new image added" />
+    <MESSAGE value="delete dispatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete dispatch" />
   </component>
 </project>
